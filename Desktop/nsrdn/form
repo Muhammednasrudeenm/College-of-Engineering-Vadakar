@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>form</title>
+<body>
+<h1><b>Registration form</b></h1><br><br>
+<form>
+<label>First Name</label>
+<input type="text" name="fn" size="20"><br><br><br>
+<label>Last Name</label>
+<input type="text" name="ln" size="20"><br><br><br>
+<label>Gender</label>
+<input type="radio" name="m" value="male">Male
+<input type="radio" name= "m" value="female">Female<br><br><br>
+<label>Address</label>
+<input type="textarea" name="ad" size="50"><br><br><br>
+<label>state</label>
+<select>
+<option value="kerala">Kerala</option>
+<option value="Ka">Karnataka</option>
+<option value="TN">Tamilnadu</option>
+<option value="ap">AP</option>
+<option value="ga">Goa</option>
+<option value="ot">Other</option>
+</select><br><br>
+
+<label>ph.no</label>
+<input type="text" name="ph"max="10" value="+91"><br><br><br>
+<label>Programming languages known</label><br><br>
+<input type="checkbox" >Java<br>
+<input type="checkbox" >PHP<br>
+<input type="checkbox" >Python<br>
+<input type="checkbox" >C++<br>
+<input type="button" value="submit"><br><br><br>
+</body>
+</head>
+</html>
+
